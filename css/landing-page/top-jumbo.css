@@ -1,0 +1,301 @@
+#top-jumbo {
+	padding: 0 0 250px;
+	background: #f7f7f8;
+}
+
+#top-jumbo:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+#top-jumbo .left-side {
+	width: 50%;
+	display: inline-block;
+	float: left;
+}
+
+#top-jumbo .left-side .large-number {
+	font-size: 300px;
+	font-weight: 700;
+	opacity: 0.1;
+	color: #222021;
+	position: relative;
+	left: -23px;
+	top: -5px;
+	z-index: 1;
+}
+
+#top-jumbo .left-side .head-info {
+	position: relative;
+	top: -150px;
+}
+
+#top-jumbo .left-side .head-info h1 {
+	font-size: 3.5rem;
+	color: #222021;
+	text-transform: uppercase;
+	margin-bottom: 1.5rem;
+}
+
+#top-jumbo .left-side .head-info p {
+	font-size: 1rem;
+	line-height: 1.5;
+	font-weight: 300;
+	color: #aaacaf;
+	text-transform: capitalize;
+}
+
+#top-jumbo .left-side .head-info .email-input {
+	background: white;
+	border-radius: 35px;
+	display: inline-block;
+	padding: 7px;
+	margin-top: 20px;
+}
+
+#top-jumbo .left-side .head-info .email-input .far {
+	font-size: 1rem;
+	color: #d5e2ea;
+	position: relative;
+	top: 3px;
+	margin-left: 15px;
+}
+
+#top-jumbo .left-side .head-info .email-input input[type='email'] {
+	background: white;
+	border: none;
+	padding: 10px;
+	text-transform: uppercase;
+	width: 230px;
+}
+
+#top-jumbo .left-side .head-info .email-input button {
+	background: #222021;
+	padding: 15px 50px;
+	color: #f7f7f8;
+	text-transform: uppercase;
+	border-radius: 35px;
+}
+
+#top-jumbo .right-side {
+	width: 50%;
+	display: inline-block;
+	float: left;
+	padding: 0 15px;
+}
+
+#top-jumbo .right-side img {
+	width: 100%;
+}
+
+.container-fluid #myLinks {
+	display: inline-block;
+}
+
+.container-fluid a.icon {
+	display: none;
+}
+
+/*//////////////////////////////////////////////////////////////////////////*/
+
+/*laptop devices*/
+@media only screen and (max-width: 1215px) {
+	#top-jumbo .left-side .head-info .email-input {
+		width: 100%;
+	}
+	#top-jumbo .left-side .head-info h1 {
+		font-size: 3rem;
+	}
+	#top-jumbo .left-side .head-info .email-input .far {
+		float: left;
+		margin-left: 0;
+		width: 15%;
+		position: relative;
+		top: 14px;
+		text-align: center;
+	}
+
+	#top-jumbo .left-side .head-info .email-input input[type='email'] {
+		width: 50%;
+		float: left;
+		position: relative;
+		top: 7px;
+	}
+	#top-jumbo .left-side .head-info .email-input button {
+		background: #222021;
+		padding: 15px 0;
+		width: 35%;
+		float: left;
+	}
+}
+
+/*tablet devices*/
+@media only screen and (max-width: 1023px) {
+	header a {
+		margin-left: 5px;
+	}
+
+	header .header-buttons .blue-btn {
+		padding: 5px 10px;
+	}
+	header .header-buttons .orange-btn {
+		padding: 5px 10px;
+	}
+
+	.container-fluid #myLinks {
+		display: inline-block;
+	}
+
+	.container-fluid a.icon {
+		display: none;
+	}
+
+	#top-jumbo .left-side {
+		width: 50%;
+	}
+	#top-jumbo .left-side .large-number {
+		font-size: 250px;
+	}
+	#top-jumbo .left-side .head-info p {
+		font-size: 1.2rem;
+	}
+	#top-jumbo .left-side .head-info .email-input {
+		width: 100%;
+	}
+	#top-jumbo .left-side .head-info h1 {
+		font-size: 3rem;
+	}
+	#top-jumbo .left-side .head-info .email-input .far {
+		float: left;
+		margin-left: 0;
+		width: 15%;
+		position: relative;
+		top: 14px;
+		text-align: center;
+	}
+
+	#top-jumbo .left-side .head-info .email-input input[type='email'] {
+		width: 50%;
+		float: left;
+		position: relative;
+		top: 7px;
+	}
+	#top-jumbo .left-side .head-info .email-input button {
+		background: #222021;
+		padding: 15px 0;
+		width: 35%;
+		float: left;
+	}
+
+	#top-jumbo .right-side {
+		width: 50%;
+		padding: 0 15px;
+		position: relative;
+		top: 59px;
+	}
+}
+
+/*mobile devices*/
+@media only screen and (max-width: 767px) {
+	.container-fluid {
+		overflow: hidden;
+		background-color: black;
+		position: relative;
+		padding: 0 0px !important;
+	}
+
+	.container-fluid #myLinks {
+		display: none;
+		padding-bottom: 30px;
+		text-align: center;
+		width: 100%;
+	}
+
+	.container-fluid .menu a {
+		color: #f7f7f8;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 17px;
+		display: block;
+	}
+
+	.container-fluid a.icon {
+		display: block;
+		color: #f7f7f8;
+		position: absolute;
+		font-size: 51px;
+		right: 0;
+		top: 0;
+	}
+
+	.container-fluid a:hover {
+		background-color: #f7f7f8;
+		color: black;
+	}
+
+	.active {
+		background-color: #4caf50;
+		color: white;
+	}
+
+	header .header-buttons .blue-btn {
+		display: none;
+	}
+	header .header-buttons .orange-btn {
+		display: none;
+	}
+
+	header a {
+		margin: 0;
+	}
+
+	#top-jumbo {
+		padding: 0 0 150px;
+	}
+	#top-jumbo .left-side {
+		width: 100%;
+	}
+	#top-jumbo .left-side .large-number {
+		font-size: 250px;
+		position: relative;
+		left: -18px;
+	}
+	#top-jumbo .left-side .head-info p {
+		font-size: 1.2rem;
+	}
+	#top-jumbo .left-side .head-info .email-input {
+		width: 80%;
+	}
+	#top-jumbo .left-side .head-info h1 {
+		font-size: 3rem;
+	}
+	#top-jumbo .left-side .head-info .email-input .far {
+		float: left;
+		margin-left: 0;
+		width: 15%;
+		position: relative;
+		top: 14px;
+		text-align: center;
+	}
+
+	#top-jumbo .left-side .head-info .email-input input[type='email'] {
+		width: 50%;
+		float: left;
+		position: relative;
+		top: 7px;
+	}
+	#top-jumbo .left-side .head-info .email-input button {
+		background: #222021;
+		padding: 15px 0;
+		width: 35%;
+		float: left;
+	}
+
+	#top-jumbo .right-side {
+		width: 100%;
+		padding: 0 15px;
+		position: relative;
+		top: -35px;
+	}
+}

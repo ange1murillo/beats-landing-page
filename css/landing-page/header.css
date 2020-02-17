@@ -1,0 +1,117 @@
+header {
+  padding: 30px 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header a {
+  color: #222021;
+  text-decoration: none;
+  margin-left: 25px;
+}
+
+header .logo {
+  display: inline-block;
+  float: left;
+  margin-right: 28px;
+}
+
+header .logo img {
+  width: 50px;
+}
+
+header .menu {
+  display: inline-block;
+  float: left;
+  position: relative;
+  top: 14px;
+}
+
+header .menu a {
+  text-transform: uppercase;
+}
+
+header .header-buttons {
+  display: inline-block;
+  float: right;
+}
+
+header .header-buttons .blue-btn {
+  background: #e03322; /* Old browsers */
+  background: -moz-linear-gradient(
+    -45deg,
+    #e03322 1%,
+    #f27149 75%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    -45deg,
+    #e03322 1%,
+    #f27149 75%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    135deg,
+    #e03322 1%,
+    #f27149 75%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  padding: 14px 46px;
+  color: white;
+  border-radius: 35px;
+  text-transform: uppercase;
+  position: relative;
+  top: 14px;
+  -webkit-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
+}
+
+header .header-buttons .blue-btn .fas {
+  margin-left: 12px;
+}
+
+header .header-buttons .orange-btn {
+  background: #e03322; /* Old browsers */
+  background: -moz-linear-gradient(
+    -45deg,
+    #e03322 1%,
+    #f27149 75%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    -45deg,
+    #e03322 1%,
+    #f27149 75%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    135deg,
+    #e03322 1%,
+    #f27149 75%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  padding: 14px 46px;
+  color: white;
+  border-radius: 35px;
+  text-transform: uppercase;
+  position: relative;
+  top: 14px;
+  -webkit-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 17px 40px -10px rgba(0, 0, 0, 0.3);
+}
+
+/*//////////////////////////////////////////////////////////////////////////*/
+
+/*laptop devices*/
+@media only screen and (max-width: 1215px) {
+}
+
+/*tablet devices*/
+@media only screen and (max-width: 1023px) {
+}
+
+/*mobile devices*/
+@media only screen and (max-width: 767px) {
+}

@@ -1,0 +1,288 @@
+#color-collection {
+	position: relative;
+	top: -50px;
+	background: #f7f7f8;
+}
+
+#color-collection .container:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+#color-collection .left-side {
+	width: 60%;
+	display: inline-block;
+	float: left;
+	text-align: center;
+}
+
+#color-collection .left-side img {
+	width: 80%;
+	display: inline-block;
+	float: left;
+}
+
+#color-collection .right-side {
+	width: 40%;
+	display: inline-block;
+	float: left;
+}
+
+#color-collection .right-side:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+#color-collection .right-side .swatch-area {
+	background: white;
+	padding: 12px 20px;
+	display: inline-block;
+	border-radius: 45px;
+	margin-top: 70px;
+	margin-bottom: 40px;
+}
+
+#color-collection .right-side .swatch-area:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+#color-collection .right-side .swatch-area .circle {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	display: inline-block;
+	float: left;
+	margin-right: 20px;
+}
+
+#color-collection .right-side .swatch-area .circle:nth-child(1) {
+	background: #e03322; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #e03322 1%, #f27149 75%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #e03322 1%, #f27149 75%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #e03322 1%, #f27149 75%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#color-collection .right-side .swatch-area .circle:nth-child(2) {
+	background: #e03322; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #e03322 1%, #f27149 75%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #e03322 1%, #f27149 75%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #e03322 1%, #f27149 75%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#color-collection .right-side .swatch-area .circle:nth-child(3) {
+	background: #e03322; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #e03322 1%, #f27149 75%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #e03322 1%, #f27149 75%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #e03322 1%, #f27149 75%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	margin-right: 0;
+}
+
+#color-collection .right-side .info-box {
+	background: white;
+	padding: 40px 20px;
+	display: inline-block;
+	max-width: 290px;
+	width: 100%;
+	text-align: center;
+}
+
+#color-collection .right-side .info-box h2 {
+	font-size: 2rem;
+}
+
+#color-collection .right-side .info-box h2 span {
+	display: block;
+	text-align: center;
+}
+
+#color-collection .right-side .info-box h2 span.orange {
+	color: orange;
+	font-weight: 100;
+}
+
+#color-collection .right-side .info-box h2 span.blue {
+	color: blue;
+}
+
+#color-collection .right-side .info-box h2 span.purple {
+	color: purple;
+	font-weight: 100;
+}
+
+#color-collection .right-side .info-box p {
+	color: #aaacaf;
+	font-size: 0.8rem;
+	margin: 40px 0;
+}
+
+#color-collection .right-side .info-box a {
+	color: blue;
+	font-size: 1.5rem;
+	font-weight: 600;
+	text-decoration: none;
+	margin: 40px 0 20px;
+	display: block;
+}
+
+#color-collection .right-side .info-box .line {
+	height: 2px;
+	width: 50px;
+	background: purple;
+	display: inline-block;
+}
+
+#color-collection .right-side .color-slider {
+	position: relative;
+	width: 20px;
+	height: 537px;
+	border-radius: 40px;
+	background: #ff3030; /* Old browsers */
+	background: -moz-linear-gradient(
+		-45deg,
+		#ff3030 1%,
+		#ff9e30 20%,
+		#fff430 39%,
+		#86ff30 55%,
+		#30ffff 69%,
+		#3059ff 84%,
+		#b630ff 99%
+	); /* FF3.6-15 */
+	background: -webkit-linear-gradient(
+		-45deg,
+		#ff3030 1%,
+		#ff9e30 20%,
+		#fff430 39%,
+		#86ff30 55%,
+		#30ffff 69%,
+		#3059ff 84%,
+		#b630ff 99%
+	); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(
+		135deg,
+		#ff3030 1%,
+		#ff9e30 20%,
+		#fff430 39%,
+		#86ff30 55%,
+		#30ffff 69%,
+		#3059ff 84%,
+		#b630ff 99%
+	); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3030', endColorstr='#b630ff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+#color-collection .right-side .color-slider .picker {
+	border-radius: 50%;
+	background: orange;
+	width: 20px;
+	height: 20px;
+	border: 10px solid #fff;
+	box-sizing: content-box;
+	position: absolute;
+	top: 115px;
+	left: -10px;
+}
+
+#color-collection .right-side .sec-1 {
+	float: left;
+	width: 80%;
+}
+
+#color-collection .right-side .sec-2 {
+	float: left;
+	width: 20%;
+}
+
+/*//////////////////////////////////////////////////////////////////////////*/
+
+/*laptop devices*/
+@media only screen and (max-width: 1215px) {
+}
+
+/*tablet devices*/
+@media only screen and (max-width: 1023px) {
+	#color-collection .left-side {
+		width: 50%;
+	}
+	#color-collection .left-side img {
+		float: none;
+		width: 100%;
+	}
+
+	#top-jumbo .left-side .large-number {
+		left: -19px;
+	}
+
+	#color-collection .right-side {
+		width: 50%;
+		padding: 50px 0;
+		text-align: center;
+	}
+
+	#color-collection .right-side .sec-2 {
+		float: left;
+		width: 10%;
+		padding: 0 30px;
+	}
+
+	#color-collection .right-side .swatch-area {
+		background: white;
+		padding: 12px 20px;
+		display: inline-block;
+		border-radius: 45px;
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+
+	#color-collection .right-side .swatch-area .circle {
+		margin-right: 3px;
+	}
+
+	#color-collection .right-side .color-slider {
+		position: relative;
+		width: 20px;
+		height: 400px;
+		border-radius: 40px;
+	}
+}
+
+/*mobile devices*/
+@media only screen and (max-width: 767px) {
+	#color-collection .left-side {
+		width: 100%;
+	}
+	#color-collection .left-side img {
+		float: none;
+	}
+
+	#color-collection .right-side {
+		width: 100%;
+		padding: 25px 0;
+		text-align: center;
+	}
+
+	#color-collection .right-side .sec-2 {
+		float: left;
+		width: 10%;
+		padding: 0 30px;
+	}
+
+	#color-collection .right-side .swatch-area {
+		background: white;
+		padding: 12px 20px;
+		display: inline-block;
+		border-radius: 45px;
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+
+	#color-collection .right-side .color-slider {
+		position: relative;
+		width: 20px;
+		height: 400px;
+		border-radius: 40px;
+	}
+}

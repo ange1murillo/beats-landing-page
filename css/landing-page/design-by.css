@@ -1,0 +1,207 @@
+#design-by {
+	position: relative;
+	top: -200px;
+	background: #f7f7f8;
+}
+
+#design-by .design-container {
+	position: relative;
+	background: white;
+	overflow: hidden;
+	border-radius: 5px;
+}
+
+#design-by .design-container .bg-container {
+	position: relative;
+	background: #e03322; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #e03322 1%, #f27149 75%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #e03322 1%, #f27149 75%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #e03322 1%, #f27149 75%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	overflow: hidden;
+	padding: 46.3px;
+}
+
+#design-by .design-container .dc-img {
+	position: absolute;
+	width: 500px;
+	z-index: 1;
+	opacity: 0.3;
+	right: 80px;
+	top: -10px;
+}
+#design-by .design-container:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+#design-by .design-container .info-section {
+	width: 40%;
+	display: inline-block;
+	float: left;
+}
+
+#design-by .design-container .info-section h5 {
+	color: #222021;
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	margin-bottom: 2rem;
+	position: relative;
+	z-index: 2;
+}
+
+#design-by .design-container .info-section h3 {
+	color: white;
+	font-size: 2.7rem;
+	margin-bottom: 2rem;
+	position: relative;
+	z-index: 2;
+}
+
+#design-by .design-container .info-section .info-list {
+	margin-bottom: 4rem;
+	position: relative;
+	z-index: 2;
+}
+
+#design-by .design-container .info-section .info-list li {
+	list-style: none;
+	color: white;
+	font-size: 1rem;
+	font-weight: 400;
+	margin-bottom: 14px;
+	vertical-align: top;
+}
+
+#design-by .design-container .info-section .info-list li .circle-check {
+	background: #222021;
+	display: inline-block;
+	border-radius: 50%;
+	width: 26px;
+	height: 26px;
+	margin-right: 10px;
+	position: relative;
+	top: 7px;
+}
+
+#design-by .design-container .info-section .info-list li .circle-check .fas {
+	position: absolute;
+	top: 6px;
+	left: 5px;
+}
+
+#design-by .design-container .info-section .learn-more-btn {
+	background: white;
+	border-radius: 50px;
+	padding: 10px 40px;
+	text-decoration: none;
+	color: #e03322;
+	font-weight: 700;
+	font-size: 1rem;
+	display: inline-block;
+	position: relative;
+	z-index: 2;
+}
+
+#design-by .design-container .icons-section {
+	width: 60%;
+	background: white;
+	display: inline-block;
+	float: left;
+	position: relative;
+}
+
+#design-by .design-container .icons-section .refresh-circle {
+	position: absolute;
+	left: 44%;
+	top: 40%;
+	width: 80px;
+	height: 80px;
+	background: white;
+	border-radius: 50%;
+}
+
+#design-by .design-container .icons-section .refresh-circle .fas {
+	position: relative;
+	color: #222021;
+	font-size: 2.5rem;
+	top: 20px;
+	left: 20px;
+}
+
+#design-by .design-container .icons-section .icon-box {
+	width: 50%;
+	height: 223px;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	border: 1px solid #f4f4f4;
+	color: #e03322;
+	font-size: 1.3rem;
+}
+
+#design-by .design-container .icons-section .icon-box .fas,
+#design-by .design-container .icons-section .icon-box .far {
+	font-size: 3rem;
+	margin-bottom: 2rem;
+	margin-top: 61px;
+}
+
+/*//////////////////////////////////////////////////////////////////////////*/
+
+/*laptop devices*/
+@media only screen and (max-width: 1215px) {
+	#design-by .design-container .icons-section .icon-box {
+		width: 50%;
+		height: 225px;
+	}
+}
+
+/*tablet devices*/
+@media only screen and (max-width: 1023px) {
+	#design-by .design-container .icons-section .refresh-circle {
+		left: 42%;
+	}
+	#design-by .design-container .info-section {
+		width: 50%;
+	}
+	#design-by .design-container .icons-section {
+		width: 50%;
+	}
+	#design-by .design-container .icons-section .icon-box {
+		width: 50%;
+		height: 233px;
+	}
+}
+@media only screen and (max-width: 833px) {
+	#design-by .design-container .icons-section .refresh-circle {
+		left: 42%;
+	}
+}
+
+/*mobile devices*/
+@media only screen and (max-width: 767px) {
+	#design-by {
+		position: relative;
+		top: -100px;
+	}
+	#design-by .design-container .info-section {
+		width: 100%;
+	}
+	#design-by .design-container .icons-section {
+		width: 100%;
+	}
+	#design-by .design-container .icons-section .icon-box {
+		width: 50%;
+		height: 200px;
+	}
+	#design-by .design-container .icons-section .refresh-circle {
+		display: none;
+	}
+	#design-by .design-container .info-section .info-list li {
+		line-height: 2;
+	}
+	#design-by .design-container .bg-container {
+		padding: 20px;
+	}
+}
